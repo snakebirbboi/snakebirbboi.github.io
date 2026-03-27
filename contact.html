@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Anabelle Brushett</title>
+  <meta name="description" content="Contact Anabelle Brushett for pet portraits, people portraits, custom artwork and illustration commissions." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        Anabelle Brushett
+        <span>Art & Illustration</span>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="tag">Contact</div>
+      <h1>Let’s talk about your idea</h1>
+      <p class="section-intro">
+        If you’d like to enquire about a commission, portrait or custom illustration,
+        get in touch using the details below or use the form as your starting point.
+      </p>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h2>Contact details</h2>
+          <p>
+            This is a working portfolio site, so the easiest way to get in touch right now is by phone.
+          </p>
+
+          <div class="contact-list">
+            <div class="contact-item">
+              <strong>Telephone</strong>
+              <a href="tel:+447925687418">07925 687418</a>
+            </div>
+
+            <div class="contact-item">
+              <strong>Location</strong>
+              Brighton, UK
+            </div>
+
+            <div class="contact-item">
+              <strong>Commissions</strong>
+              Pet portraits, people portraits, custom illustrations, character work and more
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <h2>Enquiry form</h2>
+
+          <!--
+            For GitHub Pages this form needs a form service to actually send messages.
+            Later you can connect this to Formspree, Basin or another form handler.
+            For now, this is ready visually and structurally.
+          -->
+          <form>
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" />
+            </div>
+
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your email address" />
+            </div>
+
+            <div>
+              <label for="type">Type of commission</label>
+              <select id="type" name="type">
+                <option>Pet Portrait</option>
+                <option>People Portrait</option>
+                <option>Custom Illustration</option>
+                <option>Character Artwork</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="message">Tell me what you have in mind</label>
+              <textarea id="message" name="message" placeholder="Describe the artwork you’d like..."></textarea>
+            </div>
+
+            <button class="btn btn-primary" type="button">Send Enquiry</button>
+          </form>
+
+          <p class="form-note">
+            Until the live form is connected, please call <a href="tel:+447925687418">07925 687418</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="small">© 2026 Anabelle Brushett. All rights reserved.</div>
+      <div class="small">Brighton, UK • 07925 687418</div>
+    </div>
+  </footer>
+</body>
+</html>
