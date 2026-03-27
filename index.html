@@ -1,12 +1,160 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>HTML Tutorial</title>
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anabelle Brushett | Art & Illustration</title>
+  <meta name="description" content="Art and illustration by Anabelle Brushett. Pet portraits, people portraits, custom illustrations and commissioned artwork." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        Anabelle Brushett
+        <span>Art & Illustration</span>
+      </a>
 
-    <h1>This is a heading</h1>
-    <p>This is a paragraph.</p>
+      <nav class="nav">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  </body>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="tag">Brighton University Illustration Student</div>
+          <h1>Warm, expressive artwork and custom commissions</h1>
+          <p class="lead">
+            Hi, I’m Anabelle. I create original artwork, portraits and custom illustration pieces.
+            This site is the start of my portfolio and will keep growing over time with new work,
+            commissions and creative projects.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="gallery.html">View Artwork</a>
+            <a class="btn btn-secondary" href="contact.html">Request a Commission</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <img src="images/anabelle.jpg" alt="Photo of Anabelle Brushett" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Commission Types</h2>
+        <p class="section-intro">
+          I’m available for custom pieces and creative commissions. These are the main areas I’m building out right now.
+        </p>
+
+        <div class="commission-grid">
+          <article class="card">
+            <div class="card-icon">🐾</div>
+            <h3>Pet Portraits</h3>
+            <p>Characterful portraits of pets with a personal, hand-crafted feel.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">🖼️</div>
+            <h3>People Portraits</h3>
+            <p>Stylised portraits inspired by real people, photos and individual personality.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">✏️</div>
+            <h3>Custom Illustration</h3>
+            <p>Original artwork developed from your idea, theme, mood or brief.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">⭐</div>
+            <h3>Character Work</h3>
+            <p>Character concepts, imaginative pieces and more playful illustration ideas.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">💡</div>
+            <h3>Other Ideas</h3>
+            <p>If you have something different in mind, get in touch and we can explore it together.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Featured Artwork</h2>
+        <p class="section-intro">
+          A few early examples of Anabelle’s work and creative style. More pieces will be added as the portfolio grows.
+        </p>
+
+        <div class="feature-grid">
+          <article class="gallery-card">
+            <img src="images/art-cap-1.jpg" alt="Custom illustrated cap design by Anabelle" />
+            <div class="caption">
+              <h3>Custom Cap Design</h3>
+              <p>Bold hand-drawn design work on fabric.</p>
+            </div>
+          </article>
+
+          <article class="gallery-card">
+            <img src="images/art-cap-2.jpg" alt="Second view of custom illustrated cap design" />
+            <div class="caption">
+              <h3>Cap Detail View</h3>
+              <p>Another angle showing form and layout of the artwork.</p>
+            </div>
+          </article>
+
+          <article class="gallery-card">
+            <img src="images/dog-sketch-1.jpg" alt="Dog portrait sketch by Anabelle" />
+            <div class="caption">
+              <h3>Dog Portrait Sketch</h3>
+              <p>Soft pencil portrait work with careful texture and expression.</p>
+            </div>
+          </article>
+
+          <article class="gallery-card">
+            <img src="images/dog-sketch-2.jpg" alt="Second dog portrait sketch by Anabelle" />
+            <div class="caption">
+              <h3>Pet Study</h3>
+              <p>Another example of observational pet portrait drawing.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="hero-actions" style="margin-top: 28px;">
+          <a class="btn btn-primary" href="gallery.html">See Full Gallery</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container panel">
+        <h2>Want to commission something?</h2>
+        <p>
+          For enquiries, custom requests or artwork ideas, head to the contact page or call directly.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="contact.html">Go to Contact Page</a>
+          <a class="btn btn-secondary" href="tel:+447925687418">Call 07925 687418</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="small">© 2026 Anabelle Brushett. All rights reserved.</div>
+      <div class="small">Brighton, UK • 07925 687418</div>
+    </div>
+  </footer>
+</body>
 </html>
